@@ -21,6 +21,15 @@ public class MainGrafos
         grafito.addEdge(2, 3);
         grafito.addEdge(3, 2);
         
+        System.out.println("Matriz de adyacencia");
+        System.out.println(grafito.showAMatrix());
+        System.out.println("--------");
+        System.out.println("Lista de adyacencia");
+        System.out.println(grafito.showAList());
+        System.out.println("--------");
+        System.out.println("Lista de arcos");
+        System.out.println(grafito.showEdgeList());
+        System.out.println("--------");
         grafito.ValidarInOut();
         
         System.out.println("------------------------------");
@@ -35,6 +44,15 @@ public class MainGrafos
         grafito2.addEdge(5, 4);
         grafito2.addEdge(6, 5);
         
+        System.out.println("Matriz de adyacencia");
+        System.out.println(grafito2.showAMatrix());
+        System.out.println("--------");
+        System.out.println("Lista de adyacencia");
+        System.out.println(grafito2.showAList());
+        System.out.println("--------");
+        System.out.println("Lista de arcos");
+        System.out.println(grafito2.showEdgeList());
+        System.out.println("--------");
         grafito2.ValidarInOut();
         
         System.out.println("------------------------------");
@@ -43,7 +61,16 @@ public class MainGrafos
         Grafo grafito3 = new Grafo(3);
         grafito3.addEdge(0, 1);
         grafito3.addEdge(2, 0);
-       
+        
+        System.out.println("Matriz de adyacencia");
+        System.out.println(grafito3.showAMatrix());
+        System.out.println("--------");
+        System.out.println("Lista de adyacencia");
+        System.out.println(grafito3.showAList());
+        System.out.println("--------");
+        System.out.println("Lista de arcos");
+        System.out.println(grafito3.showEdgeList());
+        System.out.println("--------");
         grafito3.ValidarInOut();
         
     }
